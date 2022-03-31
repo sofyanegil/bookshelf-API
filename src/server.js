@@ -15,7 +15,7 @@ const init = async () => {
   server.route(routes);
 
   await server.start();
-  console.log(`Server berjalan pada url berikut ${server.info.uri}`);
+  console.log(`Server berjalan pada url berikut ${server.info.uri}/books`);
 };
 
 init();
